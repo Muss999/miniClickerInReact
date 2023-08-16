@@ -1,0 +1,32 @@
+.btns {
+    width: 10%;
+    height: 40px;
+    border: transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.btnAdd {
+    background-color: green;
+}
+.btnAdd:hover {
+    background: #186a3b;
+}
+.btnAdd:active {
+    background: aqua;
+    width: 15%;
+    height: 50px;
+    transition: 0.5s;
+}
+.btnReset {
+    background-color: yellow;
+}
+.btnReset:hover {
+    background-color: #bfb90c;
+}
+.btnReset:active {
+    background: red;
+    width: 12%;
+    height: 50px;
+    transition: 0.25s;
+}
